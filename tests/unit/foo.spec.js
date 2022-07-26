@@ -14,7 +14,7 @@ describe('Foo', () => {
         Wrapper.setProps({ name: "拉拉" })
         console.log(Wrapper.vm.name) //这个结果仍 为 啦啦啦
         Wrapper.find('.text').trigger("click")
-        console.log(Wrapper.vm.text) // 4
+        console.log(Wrapper.vm.text) //  4
         expect(Wrapper.vm.text).toBe(4)
     })
 })
